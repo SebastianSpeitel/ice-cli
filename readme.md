@@ -14,7 +14,7 @@ Append this to you `~/.config/starship.toml`:
 
 ```toml
 [custom.ice]
-when = 'ice-cli --check'
+when = 'ice-cli check'
 command = 'ice-cli prompt'
 format = 'on 🚅 [$output]($style) '
 ```
